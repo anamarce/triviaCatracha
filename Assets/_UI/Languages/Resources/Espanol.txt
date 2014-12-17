@@ -1,0 +1,88 @@
+MainTitle = Partido de Geek Trivia
+changelanguage = Cambiar Lenguaje
+settingstitle = Opciones
+newmatch  =  Nueva Partida>
+newmatchtitle = Nueva Partida
+matches =  Partidas>
+leaderboards =  Tablas de Líderes>
+achievements =  Logros>
+signout = Desloguearse>
+signin = Autenticar>
+settings = Opciones>
+quit = Salir>
+back = < Regresar
+about = Acerca
+english = Ingles
+spanish = Espanol
+numberopponents = Número de Oponentes
+quickmatch = Partida Rápida >
+invitematch= Crear Partida >
+or = O
+sound = Sonido
+on = Encendido
+off = Apagado
+matchlobby = Partida en Curso
+players = Jugadores
+matchstatus = Estado Partida:
+turnstatus = Estado del Turno
+Active = Activa
+Expired = Terminada
+Cancelled = Cancelada
+AutoMatching =Auto Seleccionando
+Complete = Completada
+Deleted = Borrada
+Unknown = Indefinida
+
+myturn = Adelante, es tu Turno!!
+theirturn = Por favor espera, NO es tu Turno :(
+invitedtomatch = Has sido invitado a esta Partida :D
+
+ matchfinishedwon = Partida terminó, GANASTE !!!
+ matchfinishedlost = Partida terminó, PERDISTE !!!
+ matchcancelled = Esta partida fue cancelada !!
+ matchawaiting = Esta partida esta esperando jugadores...
+ matcherror = Esta partida no puede seguir debido a un error
+ matchnotyourturn = Por favor espera, todavia NO es tu turno :(
+ matchisyourturn = Adelante, es tu Turno :D !!!
+ 
+ participantNotInvitedYet = No Invitado
+ participantInvited = Invitado
+ participantJoined = Jugando
+ participantDeclined = Declinó
+ participantLeft = Se marchó
+ participantFinished = Terminó
+ participantUnresponsive = Sin responder
+ participantUnknown  = ?
+ 
+  playgame = Jugar >
+  playingmatch = Jugando la Partida
+  
+ matchtopicselect = Seleccionando Tema
+ 
+Arte= Arte
+Cultura = Cultura
+Economia = Economia
+Geografia = Geografia
+Historia = Historia
+Literatura = Literatura
+Musica = Musica
+Politica = Politica
+
+correctanswer = Correcto!!!
+wronganswer = Incorrecto :(
+timeout = El tiempo ha terminado :(
+youwon = Ganaste!!!	
+correctanwerstowin = Meta para ganar:	
+givechancetootherplayer = 5 respuestas consecutivas...
+retrievingquestion = Cargando pregunta..	
+loadingmessage = Cargando ...	
+errorloadingquestion= Error de Conexión, intente de nuevo o regrese al menú 
+principal para intentar mas tarde
+answerquestion = Obtenga Pregunta >
+spintopic = Revolver Temas
+
+matchinfomessage = Seleccione su oponente de su lista de amigos
+quickmatchinfomessage = El juego seleccionará un oponente al azar
+siginfirst = Autenticarse primero!
+
+testlocalize=Colección

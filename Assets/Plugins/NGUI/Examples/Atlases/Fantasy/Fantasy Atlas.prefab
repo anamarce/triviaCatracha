@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 8
+  m_Name: Fantasy Atlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e7ef61ebb5c25394c8706a7ea658349f, type: 2}
+  sprites:
+  - name: Orc Armor - Shoulders
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 214
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 214
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Orc Armor - Bracers
+    outer:
+      serializedVersion: 2
+      x: 899
+      y: 399
+      width: 123
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 899
+      y: 399
+      width: 123
+      height: 113
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Window
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 343
+      width: 254
+      height: 169
+    inner:
+      serializedVersion: 2
+      x: 523
+      y: 351
+      width: 238
+      height: 153
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Paper Background
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 255
+      width: 257
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 258
+      y: 256
+      width: 255
+      height: 255
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Smooth
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 4
+      y: 5
+      width: 9
+      height: 9
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Glow
+    outer:
+      serializedVersion: 2
+      x: 90
+      y: 3
+      width: 17
+      height: 15
+    inner:
+      serializedVersion: 2
+      x: 94
+      y: 7
+      width: 9
+      height: 7
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Dark
+    outer:
+      serializedVersion: 2
+      x: 18
+      y: 1
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 23
+      y: 6
+      width: 7
+      height: 7
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Flat Outline
+    outer:
+      serializedVersion: 2
+      x: 36
+      y: 1
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 41
+      y: 6
+      width: 7
+      height: 7
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Bright
+    outer:
+      serializedVersion: 2
+      x: 54
+      y: 1
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 59
+      y: 6
+      width: 7
+      height: 7
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Beveled Outline
+    outer:
+      serializedVersion: 2
+      x: 72
+      y: 1
+      width: 17
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 77
+      y: 6
+      width: 7
+      height: 7
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Orc Armor - Boots
+    outer:
+      serializedVersion: 2
+      x: 515
+      y: 85
+      width: 96
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 515
+      y: 85
+      width: 96
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Fantasy Font
+    outer:
+      serializedVersion: 2
+      x: 257
+      y: 42
+      width: 256
+      height: 212
+    inner:
+      serializedVersion: 2
+      x: 257
+      y: 42
+      width: 256
+      height: 212
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .207547173
+  - name: NGUI
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 255
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 19
+      width: 255
+      height: 76
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: pinzashort
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 256
+      height: 416
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 256
+      height: 416
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: "Bot\xF3n_M"
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 384
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 384
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  sprites: []
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6

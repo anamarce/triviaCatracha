@@ -1,0 +1,20 @@
+{"frames": {
+
+"bluebg.jpg":
+{
+	"frame": {"x":2,"y":2,"w":500,"h":1020},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
+	"sourceSize": {"w":500,"h":1020}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "tc.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0e06cc345acd5be488450bb50123756e$"
+}
+}

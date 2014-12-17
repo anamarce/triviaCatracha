@@ -1,0 +1,28 @@
+{"frames": {
+
+"Honduras-logo-World-Cup-2014.jpg":
+{
+	"frame": {"x":2,"y":2,"w":411,"h":375},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":411,"h":375},
+	"sourceSize": {"w":411,"h":375}
+},
+"Logo_Xtudio16_Final.png":
+{
+	"frame": {"x":2,"y":379,"w":351,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":351,"h":272},
+	"sourceSize": {"w":353,"h":274}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "Logos.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:919a02dc1ce6a9cb189223cf92e128c2$"
+}
+}
