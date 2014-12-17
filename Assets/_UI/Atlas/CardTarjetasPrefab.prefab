@@ -41,7 +41,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 759a1e793be801c4abd069b7c21f2830, type: 2}
   sprites:
-  - name: Trivia Catracha Cards-01
+  - name: Card_Arte
     outer:
       serializedVersion: 2
       x: 1508
@@ -59,7 +59,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Trivia Catracha Cards-02
+  - name: Card_Cultura
     outer:
       serializedVersion: 2
       x: 1508
@@ -77,7 +77,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Trivia Catracha Cards-03
+  - name: Card_Economia
     outer:
       serializedVersion: 2
       x: 1006
@@ -95,7 +95,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Trivia Catracha Cards-04
+  - name: Card_Geografia
     outer:
       serializedVersion: 2
       x: 1006
@@ -113,7 +113,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Trivia Catracha Cards-05
+  - name: Card_Historia
     outer:
       serializedVersion: 2
       x: 504
@@ -131,7 +131,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Trivia Catracha Cards-06
+  - name: Card_Literatura
     outer:
       serializedVersion: 2
       x: 504
@@ -149,7 +149,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Trivia Catracha Cards-07
+  - name: Card_Musica
     outer:
       serializedVersion: 2
       x: 2
@@ -167,7 +167,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Trivia Catracha Cards-08
+  - name: Card_Politica
     outer:
       serializedVersion: 2
       x: 2

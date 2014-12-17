@@ -1,6 +1,6 @@
 {"frames": {
 
-"Trivia Catracha Cards-01.png":
+"Card_Arte.png":
 {
 	"frame": {"x":1508,"y":1024,"w":500,"h":1020},
 	"rotated": false,
@@ -8,7 +8,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
 	"sourceSize": {"w":500,"h":1020}
 },
-"Trivia Catracha Cards-02.png":
+"Card_Cultura.png":
 {
 	"frame": {"x":1508,"y":2,"w":500,"h":1020},
 	"rotated": false,
@@ -16,7 +16,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
 	"sourceSize": {"w":500,"h":1020}
 },
-"Trivia Catracha Cards-03.png":
+"Card_Economia.png":
 {
 	"frame": {"x":1006,"y":1024,"w":500,"h":1020},
 	"rotated": false,
@@ -24,7 +24,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
 	"sourceSize": {"w":500,"h":1020}
 },
-"Trivia Catracha Cards-04.png":
+"Card_Geografia.png":
 {
 	"frame": {"x":1006,"y":2,"w":500,"h":1020},
 	"rotated": false,
@@ -32,7 +32,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
 	"sourceSize": {"w":500,"h":1020}
 },
-"Trivia Catracha Cards-05.png":
+"Card_Historia.png":
 {
 	"frame": {"x":504,"y":1024,"w":500,"h":1020},
 	"rotated": false,
@@ -40,7 +40,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
 	"sourceSize": {"w":500,"h":1020}
 },
-"Trivia Catracha Cards-06.png":
+"Card_Literatura.png":
 {
 	"frame": {"x":504,"y":2,"w":500,"h":1020},
 	"rotated": false,
@@ -48,7 +48,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
 	"sourceSize": {"w":500,"h":1020}
 },
-"Trivia Catracha Cards-07.png":
+"Card_Musica.png":
 {
 	"frame": {"x":2,"y":1024,"w":500,"h":1020},
 	"rotated": false,
@@ -56,7 +56,7 @@
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
 	"sourceSize": {"w":500,"h":1020}
 },
-"Trivia Catracha Cards-08.png":
+"Card_Politica.png":
 {
 	"frame": {"x":2,"y":2,"w":500,"h":1020},
 	"rotated": false,
@@ -71,6 +71,6 @@
 	"format": "RGBA8888",
 	"size": {"w":2048,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:92ca6d76e4229a88e917e2273e375d4e$"
+	"smartupdate": "$TexturePacker:SmartUpdate:2ef8ff7e9af9fd0524e016fa9fef06b0$"
 }
 }
