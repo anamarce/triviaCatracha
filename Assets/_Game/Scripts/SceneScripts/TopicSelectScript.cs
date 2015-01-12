@@ -11,11 +11,11 @@ public class TopicSelectScript : PanelScript
     public UIButton SpinButton;
     public UIButton PlayButton;
 
-    public int MinTopicTimes = 10;
-    public int MaxTopicTimes = 20;
+    public int MinTopicTimes = 2;//10
+    public int MaxTopicTimes = 4;//20
 
     private bool SpinStarted = false;
-    public float SelectionTopicTime = 1F;
+    public float SelectionTopicTime = 50F;
    
     private int HowManyTimes = 0;
     private int CountTopicTimes = 0;

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{05B13404-0618-D57A-79D1-D9239A71E3C1}</ProjectGuid>
+	<ProjectGuid>{7709379E-6C0B-C930-01DB-3926C3029553}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -335,21 +335,21 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\common_strings.xml" />
  <Reference Include="GPGSUtils">
- <HintPath>/Users/anamarce/triviacatracha/Assets/Plugins/GPGSUtils.dll</HintPath>
+ <HintPath>/Users/anamarce/tc/Assets/Plugins/GPGSUtils.dll</HintPath>
  </Reference>
  <Reference Include="JsonOrg">
- <HintPath>/Users/anamarce/triviacatracha/Assets/Plugins/JsonOrg.dll</HintPath>
+ <HintPath>/Users/anamarce/tc/Assets/Plugins/JsonOrg.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>/Users/anamarce/triviacatracha/Assets/Plugins/HOTweenMicro/HOTween.dll</HintPath>
+ <HintPath>/Users/anamarce/tc/Assets/Plugins/HOTweenMicro/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="Parse.Unity">
- <HintPath>/Users/anamarce/triviacatracha/Assets/Plugins/Parse.Unity/Parse.Unity.dll</HintPath>
+ <HintPath>/Users/anamarce/tc/Assets/Plugins/Parse.Unity/Parse.Unity.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9A9984DB-62D6-1733-EC73-1BCE3C1C04AA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{FB627BCC-5569-B035-4998-3636D031285D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

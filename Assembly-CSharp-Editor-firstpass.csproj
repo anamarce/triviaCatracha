@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B2F8FBB2-9AB4-15AE-3E7E-A5C2DCC20A13}</ProjectGuid>
+	<ProjectGuid>{385B92E3-43EE-50D5-E3EF-600515DE473D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -244,19 +244,19 @@
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-de\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ar\common_strings.xml" />
  <Reference Include="GPGSUtils">
- <HintPath>/Users/anamarce/triviacatracha/Assets/Plugins/GPGSUtils.dll</HintPath>
+ <HintPath>/Users/anamarce/tc/Assets/Plugins/GPGSUtils.dll</HintPath>
  </Reference>
  <Reference Include="JsonOrg">
- <HintPath>/Users/anamarce/triviacatracha/Assets/Plugins/JsonOrg.dll</HintPath>
+ <HintPath>/Users/anamarce/tc/Assets/Plugins/JsonOrg.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
- <HintPath>/Users/anamarce/triviacatracha/Assets/Plugins/HOTweenMicro/HOTween.dll</HintPath>
+ <HintPath>/Users/anamarce/tc/Assets/Plugins/HOTweenMicro/HOTween.dll</HintPath>
  </Reference>
  <Reference Include="HOTweenV1_Editor">
- <HintPath>/Users/anamarce/triviacatracha/Assets/Plugins/HOTweenMicro/Editor/HOTweenV1_Editor.dll</HintPath>
+ <HintPath>/Users/anamarce/tc/Assets/Plugins/HOTweenMicro/Editor/HOTweenV1_Editor.dll</HintPath>
  </Reference>
  <Reference Include="Parse.Unity">
- <HintPath>/Users/anamarce/triviacatracha/Assets/Plugins/Parse.Unity/Parse.Unity.dll</HintPath>
+ <HintPath>/Users/anamarce/tc/Assets/Plugins/Parse.Unity/Parse.Unity.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -264,7 +264,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9A9984DB-62D6-1733-EC73-1BCE3C1C04AA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{FB627BCC-5569-B035-4998-3636D031285D}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
