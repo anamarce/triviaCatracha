@@ -10,17 +10,17 @@ public class TopicSelectScript : PanelScript
     public UILabel CurrentScore;
     public UIButton SpinButton;
     public UIButton PlayButton;
-
+	public UILabel labelAnswer;
+	public UILabel labelAnswerSpin;
+	public float SelectionTopicTime = 2F;
     public int MinTopicTimes = 2;//10
-    public int MaxTopicTimes = 4;//20
+    public int MaxTopicTimes = 3;//20
 
     private bool SpinStarted = false;
-    public float SelectionTopicTime = 50F;
-   
     private int HowManyTimes = 0;
     private int CountTopicTimes = 0;
     private float endTime;
-    private int timeLeft;
+    private float timeLeft;
 
     private int CurrentTopicIndex = -1;
 	// Use this for initialization
@@ -34,10 +34,13 @@ public class TopicSelectScript : PanelScript
     {
        
         SpinStarted = false;
-        Random.seed = (int)Time.time;
-        SpinButton.isEnabled = true;
-        PlayButton.isEnabled = false;
-
+		Random.seed = (int)Time.realtimeSinceStartup;
+		NGUITools.SetActive (labelAnswerSpin.gameObject, true);
+		NGUITools.SetActive (SpinButton.gameObject, true);
+        //PlayButton.isEnabled = false;
+		NGUITools.SetActive (labelAnswer.gameObject, false);
+		NGUITools.SetActive (PlayButton.gameObject, false);
+		SpinButton.isEnabled = true;
         if (CurrentScore != null)
         {
             string temp = string.Format("{0}/{1}",
@@ -54,7 +57,7 @@ public class TopicSelectScript : PanelScript
         SpinButton.isEnabled = false;
         SpinStarted = true;
         CountTopicTimes = 0;
-        endTime = Time.time + SelectionTopicTime;
+		endTime = Time.realtimeSinceStartup + SelectionTopicTime;
         HowManyTimes = Random.Range(MinTopicTimes, MaxTopicTimes);
     }
    
@@ -62,12 +65,17 @@ public class TopicSelectScript : PanelScript
     {
         if (SpinStarted)
         {
-             
-            timeLeft = (int)(endTime - Time.time);
+
+			//Debug.Log("Real Time:" + Time.realtimeSinceStartup);
+			timeLeft = (endTime - Time.realtimeSinceStartup);
             if (timeLeft <= 0)
             {
+
+				Debug.Log("End time." + endTime);
+				Debug.Log("Time left:"+ timeLeft);
+				//Debug.Log("Real Time 2: " + Time.realtimeSinceStartup);
                 timeLeft = 0;
-                endTime = Time.time + SelectionTopicTime;
+				endTime = Time.realtimeSinceStartup + SelectionTopicTime;
                 
                 CurrentTopicIndex = Random.Range(0, Managers.Trivia.TopicsParseKey.Length);
 
@@ -76,10 +84,16 @@ public class TopicSelectScript : PanelScript
                
                 CountTopicTimes = CountTopicTimes +1;
 
+				Debug.Log("Count Topic Times: " +CountTopicTimes);
+				Debug.Log("How many times: "+HowManyTimes);
                 TopicSprite.spriteName = Managers.Trivia.GetSpritName(CurrentTopicIndex);
                 if (CountTopicTimes == HowManyTimes)
                 {
-                    PlayButton.isEnabled = true;
+                    //PlayButton.isEnabled = true;
+					NGUITools.SetActive (labelAnswer.gameObject, true);
+					NGUITools.SetActive (PlayButton.gameObject, true);
+					NGUITools.SetActive (labelAnswerSpin.gameObject, false);
+					NGUITools.SetActive (SpinButton.gameObject, false);
                     SpinButton.isEnabled = false;
                     Managers.Trivia.CurrentTopicIndexSelected = CurrentTopicIndex;
                     Managers.Trivia.CurrentTopicKey = topickey;
@@ -90,6 +104,7 @@ public class TopicSelectScript : PanelScript
             }
       
         }
+
 
     }
 	

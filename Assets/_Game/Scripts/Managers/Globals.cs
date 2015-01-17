@@ -18,7 +18,7 @@ namespace x16
 		
         public class LeaderBoards
         {
-            public static string TopGeekLeaderBoard = "CgkIwdz54IMaEAIQAg";
+			public static string TopGeekLeaderBoard = "CgkIm5Le1YICEAIQAg";
 
         }
 

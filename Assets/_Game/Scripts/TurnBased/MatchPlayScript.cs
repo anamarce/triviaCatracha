@@ -23,7 +23,7 @@ public class MatchPlayScript : PanelScript {
     public UIButton ButtonFailed;
     public UIButton ButtonWon;
     public ButtonOptionScript [] OptionButtons;
-
+	public UISprite TopicSprite;
     public float TimeToAnswer = 25F;
     public AudioClip tickSound;
     private float endTime;
@@ -232,6 +232,35 @@ public class MatchPlayScript : PanelScript {
         if (LabelTopic != null)
         {
             string topickey = Managers.Trivia.GetTopicName(Managers.Trivia.CurrentTopicIndexSelected);
+			switch(Managers.Trivia.CurrentTopicIndexSelected)
+			{
+			case 0:
+				TopicSprite.spriteName = "TCArte";
+				break;
+			case 1:
+				TopicSprite.spriteName = "TCCultura";
+				break;
+			case 2:
+				TopicSprite.spriteName = "TCEconomia";
+				break;
+			case 3:
+				TopicSprite.spriteName = "TCGeografia";
+				break;
+			case 4:
+				TopicSprite.spriteName = "TCHistoria";
+				break;
+			case 5:
+				TopicSprite.spriteName = "TCHistoria";
+				break;
+			case 6:
+				TopicSprite.spriteName = "TCMusica";
+				break;
+			case 7:
+				TopicSprite.spriteName = "TCPolitica";
+				break;
+			
+			}
+
             LabelTopic.text = Localization.Localize(topickey);
         }
 

@@ -219,10 +219,10 @@
      <None Include="Assets\Plugins\Parse.Unity\Parse.Unity.xml" />
      <None Include="Assets\Plugins\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-tl\common_strings.xml" />
+     <None Include="Assets\_UI\Atlas\QuestionsBg.txt" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-ca\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-et-rEE\common_strings.xml" />
      <None Include="Assets\Plugins\Android\BaseGameUtils\AndroidManifest.xml" />
-     <None Include="Assets\_UI\Atlas\background.txt" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-mk-rMK\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-te-rIN\common_strings.xml" />
      <None Include="Assets\Plugins\Android\google-play-services_lib\res\values-pl\common_strings.xml" />
