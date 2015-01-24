@@ -2,7 +2,7 @@
 
 "TCArte.png":
 {
-	"frame": {"x":1508,"y":2,"w":500,"h":1020},
+	"frame": {"x":1508,"y":1024,"w":500,"h":1020},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
@@ -10,7 +10,7 @@
 },
 "TCCultura.png":
 {
-	"frame": {"x":1006,"y":1024,"w":500,"h":1020},
+	"frame": {"x":1508,"y":2,"w":500,"h":1020},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
@@ -18,7 +18,7 @@
 },
 "TCEconomia.png":
 {
-	"frame": {"x":1006,"y":2,"w":500,"h":1020},
+	"frame": {"x":1006,"y":1024,"w":500,"h":1020},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
@@ -26,13 +26,21 @@
 },
 "TCGeografia.png":
 {
-	"frame": {"x":504,"y":1024,"w":500,"h":1020},
+	"frame": {"x":1006,"y":2,"w":500,"h":1020},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
 	"sourceSize": {"w":500,"h":1020}
 },
 "TCHistoria.png":
+{
+	"frame": {"x":504,"y":1024,"w":500,"h":1020},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
+	"sourceSize": {"w":500,"h":1020}
+},
+"TCLiteratura.png":
 {
 	"frame": {"x":504,"y":2,"w":500,"h":1020},
 	"rotated": false,
@@ -63,6 +71,6 @@
 	"format": "RGBA8888",
 	"size": {"w":2048,"h":2048},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:5370a6905247c0af62dd2228941d7880$"
+	"smartupdate": "$TexturePacker:SmartUpdate:fe677fd6f6936b3722eb14261cb8b969$"
 }
 }

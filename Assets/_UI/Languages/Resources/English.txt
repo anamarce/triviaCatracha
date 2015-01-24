@@ -1,5 +1,7 @@
 MainTitle = Partido de Geek Trivia
 changelanguage = Cambiar Lenguaje
+MainTitle = Partido de Trivia Catracha
+changelanguage = Cambiar Lenguaje
 settingstitle = Opciones
 newmatch  =  Nueva Partida>
 newmatchtitle = Nueva Partida
@@ -34,16 +36,16 @@ Deleted = Borrada
 Unknown = Indefinida
 
 myturn = Adelante, es tu Turno!!
-theirturn = Por favor espera, NO es tu Turno :(
-invitedtomatch = Has sido invitado a esta Partida :D
+theirturn = Por favor espera, NO es tu Turno
+invitedtomatch = Has sido invitado a esta Partida
 
- matchfinishedwon = Partida terminó, GANASTE !!!
- matchfinishedlost = Partida terminó, PERDISTE !!!
- matchcancelled = Esta partida fue cancelada !!
+ matchfinishedwon = Partida terminó, GANASTE!!!
+ matchfinishedlost = Partida terminó, PERDISTE!!!
+ matchcancelled = Esta partida fue cancelada!
  matchawaiting = Esta partida esta esperando jugadores...
  matcherror = Esta partida no puede seguir debido a un error
- matchnotyourturn = Por favor espera, todavia NO es tu turno :(
- matchisyourturn = Adelante, es tu Turno :D !!!
+ matchnotyourturn = Por favor espera, todavia NO es tu turno
+ matchisyourturn = Adelante, es tu Turno!!!
  
  participantNotInvitedYet = No Invitado
  participantInvited = Invitado
@@ -68,21 +70,22 @@ Literatura = Literatura
 Musica = Musica
 Politica = Politica
 
-correctanswer = Correcto!!!
-wronganswer = Incorrecto :(
-timeout = El tiempo ha terminado :(
-youwon = Ganaste!!!	
+correctanswer = Correcto!
+wronganswer = Incorrecto
+timeout = El tiempo ha terminado
+youwon = Ganaste!	
 correctanwerstowin = Meta para ganar:	
 givechancetootherplayer = 5 respuestas consecutivas...
 retrievingquestion = Cargando pregunta..	
 loadingmessage = Cargando ...	
 errorloadingquestion= Error de Conexión, intente de nuevo o regrese al menú 
 principal para intentar mas tarde
-answerquestion = Obtenga Pregunta >
-spintopic = Revolver Temas
+answerquestion = Obtenga Pregunta 
+spintopic = Seleccionar Categoría
 
 matchinfomessage = Seleccione su oponente de su lista de amigos
 quickmatchinfomessage = El juego seleccionará un oponente al azar
 siginfirst = Autenticarse primero!
 
 testlocalize=Colección
+publicidad = Publicidad

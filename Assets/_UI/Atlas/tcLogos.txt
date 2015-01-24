@@ -1,0 +1,28 @@
+{"frames": {
+
+"TcLogo.png":
+{
+	"frame": {"x":2,"y":2,"w":234,"h":314},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":6,"w":234,"h":314},
+	"sourceSize": {"w":254,"h":330}
+},
+"TcTitle.png":
+{
+	"frame": {"x":238,"y":2,"w":255,"h":134},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":13,"w":255,"h":134},
+	"sourceSize": {"w":269,"h":156}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "tcLogos.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1d3b42431d76f3beef5fa4bf5d1ada06$"
+}
+}

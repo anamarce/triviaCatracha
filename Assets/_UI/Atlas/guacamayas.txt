@@ -1,0 +1,36 @@
+{"frames": {
+
+"Guacamaya1.png":
+{
+	"frame": {"x":2,"y":2,"w":177,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":177,"h":154},
+	"sourceSize": {"w":181,"h":158}
+},
+"Guacamaya2.png":
+{
+	"frame": {"x":2,"y":347,"w":89,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":89,"h":154},
+	"sourceSize": {"w":99,"h":158}
+},
+"Guacamayainfo.png":
+{
+	"frame": {"x":2,"y":158,"w":89,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":89,"h":187},
+	"sourceSize": {"w":99,"h":193}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "guacamayas.png",
+	"format": "RGBA8888",
+	"size": {"w":256,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:311ecfaf4f8fb97043c846f5412b4a30$"
+}
+}

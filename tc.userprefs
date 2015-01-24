@@ -1,9 +1,25 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Game/Scripts/SceneScripts/PanelMainScene.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_UI/Languages/Resources/Espanol.txt">
     <Files>
-      <File FileName="Assets/_Game/Scripts/SceneScripts/TopicSelectScript.cs" Line="38" Column="37" />
+      <File FileName="Assets/Plugins/NGUI/Scripts/UI/UIFont.cs" Line="1075" Column="1" />
+      <File FileName="Assets/_UI/Scripts/Actions/ActionShowLeaderBoards.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Game/Scripts/SceneScripts/TopicSelectScript.cs" Line="1" Column="1" />
       <File FileName="Assets/_Game/Scripts/SceneScripts/PanelMainScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Game/Scripts/Managers/SocialManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Game/Scripts/Managers/Globals.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Game/Scripts/TurnBased/MatchPlayScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/NGUI/Scripts/Internal/UIWidget.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/Editor/NGUI/UIWidgetInspector.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/Editor/NGUI/NGUIEditorTools.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/NGUI/Scripts/UI/UIPanel.cs" Line="1" Column="1" />
+      <File FileName="Assets/_UI/Languages/Resources/English.txt" Line="76" Column="19" />
+      <File FileName="Assets/Plugins/NGUI/Scripts/Interaction/UIButton.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Game/Scripts/TurnBased/ButtonOptionScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Game/Scripts/TurnBased/PlayScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Game/Scripts/SceneScripts/MatchLobbyScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/inicio.cs" Line="2" Column="26" />
+      <File FileName="Assets/_UI/Languages/Resources/Espanol.txt" Line="76" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

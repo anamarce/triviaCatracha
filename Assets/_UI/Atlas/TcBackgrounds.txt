@@ -1,0 +1,44 @@
+{"frames": {
+
+"TCFondoAtardecer.png":
+{
+	"frame": {"x":1508,"y":2,"w":500,"h":1020},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
+	"sourceSize": {"w":500,"h":1020}
+},
+"TCFondoDia.png":
+{
+	"frame": {"x":1006,"y":2,"w":500,"h":1020},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
+	"sourceSize": {"w":500,"h":1020}
+},
+"TCFondoMenu.png":
+{
+	"frame": {"x":504,"y":2,"w":500,"h":1020},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
+	"sourceSize": {"w":500,"h":1020}
+},
+"TCFondoNoche.png":
+{
+	"frame": {"x":2,"y":2,"w":500,"h":1020},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
+	"sourceSize": {"w":500,"h":1020}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "TcBackgrounds.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1907ebd898b4cce128cf4fd71b30d8c2$"
+}
+}

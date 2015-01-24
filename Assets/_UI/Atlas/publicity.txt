@@ -1,0 +1,20 @@
+{"frames": {
+
+"publicity.jpg":
+{
+	"frame": {"x":2,"y":2,"w":500,"h":1020},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":500,"h":1020},
+	"sourceSize": {"w":500,"h":1020}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "publicity.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:33d48baa11268355c70fd2a24b2ec356$"
+}
+}

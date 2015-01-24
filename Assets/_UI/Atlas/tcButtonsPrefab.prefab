@@ -1,0 +1,526 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: tcButtonsPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c40273b0dd72d4bdcaf8307ea5deb2b2, type: 2}
+  sprites:
+  - name: b1
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 554
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 554
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: .0147058824
+    paddingRight: .0147058824
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: b2
+    outer:
+      serializedVersion: 2
+      x: 406
+      y: 548
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 406
+      y: 548
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: .0147058824
+    paddingRight: .0147058824
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: b3
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 523
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 523
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: .0147058824
+    paddingRight: .0147058824
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: b4
+    outer:
+      serializedVersion: 2
+      x: 406
+      y: 479
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 406
+      y: 479
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: .0147058824
+    paddingRight: .0147058824
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: b5
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 454
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 454
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: .0147058824
+    paddingRight: .0147058824
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: b6
+    outer:
+      serializedVersion: 2
+      x: 406
+      y: 410
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 406
+      y: 410
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: .0147058824
+    paddingRight: .0147058824
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: b7
+    outer:
+      serializedVersion: 2
+      x: 336
+      y: 385
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 336
+      y: 385
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: .0147058824
+    paddingRight: .0147058824
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: b8
+    outer:
+      serializedVersion: 2
+      x: 408
+      y: 341
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 408
+      y: 341
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: .0147058824
+    paddingRight: .0147058824
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: btAjustes
+    outer:
+      serializedVersion: 2
+      x: 340
+      y: 2
+      width: 126
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 340
+      y: 2
+      width: 126
+      height: 67
+    rotated: 0
+    paddingLeft: .00793650839
+    paddingRight: .00793650839
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: btnBack1
+    outer:
+      serializedVersion: 2
+      x: 279
+      y: 592
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 279
+      y: 592
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnBack2
+    outer:
+      serializedVersion: 2
+      x: 210
+      y: 554
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 210
+      y: 554
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnBack3
+    outer:
+      serializedVersion: 2
+      x: 338
+      y: 316
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 338
+      y: 316
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: btnCloseSession
+    outer:
+      serializedVersion: 2
+      x: 338
+      y: 134
+      width: 77
+      height: 42
+    inner:
+      serializedVersion: 2
+      x: 338
+      y: 134
+      width: 77
+      height: 42
+    rotated: 0
+    paddingLeft: .038961038
+    paddingRight: .0649350658
+    paddingTop: .0714285746
+    paddingBottom: .0714285746
+  - name: btnCrearPartida
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 455
+      width: 332
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 455
+      width: 332
+      height: 97
+    rotated: 0
+    paddingLeft: .0150602413
+    paddingRight: .0150602413
+    paddingTop: .0515463911
+    paddingBottom: .0721649453
+  - name: btnLeaderBoards
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 240
+      width: 334
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 240
+      width: 334
+      height: 110
+    rotated: 0
+    paddingLeft: .0149700595
+    paddingRight: .00898203626
+    paddingTop: .0545454547
+    paddingBottom: .0545454547
+  - name: btnListadoPartidas
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 352
+      width: 332
+      height: 101
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 352
+      width: 332
+      height: 101
+    rotated: 0
+    paddingLeft: .0150602413
+    paddingRight: .0150602413
+    paddingTop: .0495049506
+    paddingBottom: .0693069324
+  - name: btnLogros
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 128
+      width: 334
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 128
+      width: 334
+      height: 110
+    rotated: 0
+    paddingLeft: .0149700595
+    paddingRight: .00898203626
+    paddingTop: .0454545468
+    paddingBottom: .0636363626
+  - name: btnMenu1
+    outer:
+      serializedVersion: 2
+      x: 141
+      y: 554
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 141
+      y: 554
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnMenu2
+    outer:
+      serializedVersion: 2
+      x: 72
+      y: 554
+      width: 67
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 72
+      y: 554
+      width: 67
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: btnMenu3
+    outer:
+      serializedVersion: 2
+      x: 408
+      y: 272
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 408
+      y: 272
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: .0447761193
+    paddingBottom: .0149253728
+  - name: btnPartidaRapida
+    outer:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 336
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 2
+      y: 2
+      width: 336
+      height: 124
+    rotated: 0
+    paddingLeft: .00892857183
+    paddingRight: .00892857183
+    paddingTop: .0483870953
+    paddingBottom: .0645161271
+  - name: btnResolverTemas
+    outer:
+      serializedVersion: 2
+      x: 338
+      y: 247
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 338
+      y: 247
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: btnSalir
+    outer:
+      serializedVersion: 2
+      x: 340
+      y: 71
+      width: 112
+      height: 61
+    inner:
+      serializedVersion: 2
+      x: 340
+      y: 71
+      width: 112
+      height: 61
+    rotated: 0
+    paddingLeft: .0178571437
+    paddingRight: .0357142873
+    paddingTop: .0819672123
+    paddingBottom: .0819672123
+  - name: btnTomarPregunta
+    outer:
+      serializedVersion: 2
+      x: 408
+      y: 203
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 408
+      y: 203
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: btnTomarPregunta2
+    outer:
+      serializedVersion: 2
+      x: 338
+      y: 178
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 338
+      y: 178
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  - name: btnTomarPregunta3
+    outer:
+      serializedVersion: 2
+      x: 417
+      y: 134
+      width: 68
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 417
+      y: 134
+      width: 68
+      height: 67
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0294117648
+    paddingTop: .0298507456
+    paddingBottom: .0298507456
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
