@@ -115,7 +115,6 @@
      <Compile Include="Assets\Plugins\NGUI\Scripts\Internal\ActiveAnimation.cs" />
      <Compile Include="Assets\Plugins\NGUI\Scripts\Internal\AnimationOrTween.cs" />
      <Compile Include="Assets\Plugins\NGUI\Scripts\Internal\BMFont.cs" />
-     <Compile Include="Assets\Plugins\NGUI\Scripts\Internal\BMGlyph.cs" />
      <Compile Include="Assets\Plugins\NGUI\Scripts\Internal\BMSymbol.cs" />
      <Compile Include="Assets\Plugins\NGUI\Scripts\Internal\BetterList.cs" />
      <Compile Include="Assets\Plugins\NGUI\Scripts\Internal\ByteReader.cs" />
